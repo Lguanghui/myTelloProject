@@ -54,7 +54,9 @@ python3 main.py
 与人脸跟踪类似，开启此功能后，无人机能够跟随绿色小球（球不要太小）。
 
 <div align=center>
-<img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/ball_track.png"/>
+    <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/ball_track.png"/>
+    <br>
+    <p>ball_track</p>
 </div>
 
 #### 手势控制
