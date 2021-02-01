@@ -47,7 +47,7 @@ python3 main.py
 <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"/>
 </div>
 
-![face_track_img](https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"face_track")
+![face_track_img](https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png "face_track")
 
 #### 绿球跟踪
 
