@@ -12,7 +12,7 @@
 
 使用到的python库包括：pyQt5,av,pytorch,baidu-aip,opencv-python等。
 
-使用我们的代码时，请先确保计算机连接到Tello的Wi-Fi，然后运行main.py。当使用在终端中使用命令
+运行我们的代码时，请先确保计算机连接到Tello的Wi-Fi，然后运行main.py。当使用在终端中使用命令
 ```shell
 python3 main.py
 ```
@@ -21,10 +21,34 @@ python3 main.py
 
 ## 功能
 
-### 控制
+### 无人机控制
 通过此平台控制Tello无人机的方式有两种，一种是默认的键盘控制，第二种是语音控制。键盘控制一直处于开启状态。每个键盘键位对应的
 功能请参考`User_Guide.pdf`。
 
-使用语音控制时，请确保计算机Wi-Fi与Tello连接，并且通过网线接入互联网。
+使用语音控制时，还需再将网线连接到计算机上（因为Tello Wi-Fi不能上网）。
+
+### 视觉功能
+
+#### 人脸跟踪
+
+在菜单栏开启人脸跟踪功能后，无人机会搜寻人脸目标（最好只有一个），然后靠近人脸并保持在一定的安全距离内，且能够随着人脸的移动而移动。
+
+![face_track](image/face_track.png)
+
+<div align=center>
+<img src="./image/face_track.png"/>
+</div>
+
+
+
+#### 绿球跟踪
+
+与人脸跟踪类似，开启此功能后，无人机能够跟随绿色小球（不要太小）。
+
+#### 
+
+## 不足
+
+由于项目中使用了av库，我们无法在windows以及macOS系统上通过pyinstaller生成exe等可执行文件。
 
 ## 鸣谢
