@@ -44,13 +44,9 @@ python3 main.py
 在菜单栏开启人脸跟踪功能后，无人机会搜寻人脸目标（最好只有一个），然后靠近人脸并保持在一定的安全距离内，且能够随着人脸的移动而移动。
 
 <div align=center>
-<img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"/>
-<br>
-<div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">face_track
-</div>
+    <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"/>
+    <br>
+    <p style="display: inline-block;border-bottom: 1px solid">face_track</p>
 </div>
 
 #### 绿球跟踪
