@@ -25,10 +25,17 @@ python3 main.py
 ## 功能
 
 ### 无人机控制
-通过此平台控制Tello无人机的方式有两种，一种是默认的键盘控制，第二种是语音控制。键盘控制一直处于开启状态。每个键盘键位对应的
-功能请参考`User_Guide.pdf`。
+通过此平台控制Tello无人机的方式有两种，一种是默认的键盘控制，第二种是语音控制。
 
-使用语音控制时，还需再将网线连接到计算机上（因为Tello Wi-Fi不能上网）。
+#### 键盘控制
+
+键盘控制一直处于开启状态。每个键盘键位对应的功能请参考`User_Guide.pdf`。
+
+#### 语音控制
+
+使用语音控制时，还需再将网线连接到计算机上。这是因为，本项目中的语音识别功能使用了百度提供的语音识别API，使用时需联网获取识别结果。
+
+**注意：当你使用语音控制功能时，请在百度智能云上申请一下语音识别技术API，并更改`myScripts/mySpeechRecognition.py`中的APP_ID、API_KEY、SECRET_KEY（我们的已经过期啦）**
 
 ### 视觉功能
 
@@ -40,15 +47,26 @@ python3 main.py
 <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"/>
 </div>
 
+![face_track_img](https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"face_track")
+
 #### 绿球跟踪
 
-与人脸跟踪类似，开启此功能后，无人机能够跟随绿色小球（不要太小）。
+与人脸跟踪类似，开启此功能后，无人机能够跟随绿色小球（球不要太小）。
 
 <div align=center>
 <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/ball_track.png"/>
 </div>
 
-#### 
+#### 手势控制
+
+开启此功能后，会显示一个子窗口，并显示计算机摄像头视频流。识别出比划的手势后，无人机会做出相应的动作。为了避免连续识别并发出指令，我们设置了每次跳过一定帧数后再识别一次。
+具体支持的手势请参阅`User_Guide.pdf`以及相应的代码文件。
+
+与语音识别类似，我们的手势识别功能使用了百度提供的手势识别API，你需要更改`myScripts/myGesture.py`中的APP_ID、API_KEY、SECRET_KEY。
+
+<div align=center>
+<img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/gesture.png"/>
+</div>
 
 ## 不足
 
