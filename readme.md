@@ -37,11 +37,13 @@ python3 main.py
 <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"/>
 </div>
 
-
-
 #### 绿球跟踪
 
 与人脸跟踪类似，开启此功能后，无人机能够跟随绿色小球（不要太小）。
+
+<div align=center>
+<img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/ball_track.png"/>
+</div>
 
 #### 
 
