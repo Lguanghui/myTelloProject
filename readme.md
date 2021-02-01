@@ -46,7 +46,7 @@ python3 main.py
 <div align=center>
     <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/face_track.png"/>
     <br>
-    <p style="display: inline-block;border-bottom: 1px solid ">face_track</p>
+    <p style="display: inline-block;border-bottom: 1px solid; color: rgba(145,145,128,0.89)">face_track</p>
 </div>
 
 #### 绿球跟踪
