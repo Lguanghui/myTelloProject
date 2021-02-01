@@ -15,7 +15,7 @@
 
 使用到的python库包括：pyQt5,av,pytorch,baidu-aip,opencv-python等。
 
-运行我们的代码时，请先确保计算机连接到Tello的Wi-Fi，然后运行main.py。当使用在终端中使用命令
+运行我们的代码时，请先确保计算机连接到Tello的Wi-Fi，然后运行main.py。当在终端中使用命令
 ```shell
 python3 main.py
 ```
@@ -67,8 +67,14 @@ python3 main.py
 与语音识别类似，我们的手势识别功能使用了百度提供的手势识别API，你需要更改`myScripts/myGesture.py`中的APP_ID、API_KEY、SECRET_KEY。
 
 <div align=center>
-<img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/gesture.png"/>
+    <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/gesture.png"/>
+    <br>
+    <p>ball_track(这个人就是我啦)</p>
 </div>
+
+### 拍照和录像
+
+在主界面点击拍照后，会将当前无人机原始画面以jpeg格式存储到本地。点击录像后，程序开始将无人机原始画面以avi格式编码为视频流，再次点击录像按钮后，停止录像并将视频保存到本地。
 
 ## 不足
 
