@@ -135,3 +135,5 @@ python3 main.py
 由于项目中使用了av库，我们无法在windows以及macOS系统上通过pyinstaller生成exe等可执行文件。
 
 ## 感谢
+
+* [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)
