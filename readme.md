@@ -11,8 +11,6 @@ Mail：liangguanghui@buaa.edu.cn
    
 <div align=center>
     <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/mainWin.png"/>
-    <br>
-    <p>ball_track</p>
 </div>
    
 2. 项目文件中，`myScripts`文件夹涵盖了主要的代码文件，包括主程序`main.py`。`UIfile`文件夹涵盖了程序的各窗口初始代码（从`.ui`类型文件转化而来）。
