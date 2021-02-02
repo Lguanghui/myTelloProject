@@ -9,6 +9,12 @@ Mail：liangguanghui@buaa.edu.cn
 1. 此平台基于python语言开发，可用于控制大疆公司的Tello系列无人机，并利用无人机的摄像头、红外等传感器完成一系列视觉功能，包括：目标检测与跟踪（绿色小球与人脸）、手势控制、体态控制等。
 也可控制Tello进行拍照、录像，以及做出一些花式动作。
    
+<div align=center>
+    <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/mainWin.png"/>
+    <br>
+    <p>ball_track</p>
+</div>
+   
 2. 项目文件中，`myScripts`文件夹涵盖了主要的代码文件，包括主程序`main.py`。`UIfile`文件夹涵盖了程序的各窗口初始代码（从`.ui`类型文件转化而来）。
     `ico`文件夹包含了各窗口界面用到的图标。
 
