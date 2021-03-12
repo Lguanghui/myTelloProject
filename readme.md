@@ -104,7 +104,7 @@ python3 main.py
 <div align=center>
     <img src="https://github.com/Lguanghui/myTelloProject/raw/master/image/gesture.png"/>
     <br>
-    <p>ball_track(这个人就是我啦)</p>
+    <p>ball_track</p>
 </div>
 
 #### 体态控制
