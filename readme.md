@@ -20,7 +20,7 @@ Mail：liangguanghui@buaa.edu.cn
 
 开发环境为python + QtDesigner，主要在macOS下进行开发，可移植到其他系统上。
 
-使用到的python库包括：pyQt5,av,pytorch,baidu-aip,opencv-python等。
+使用到的python库包括：pyQt5,ffmpeg,av,pytorch,baidu-aip,opencv-python等。ffmpeg和av是用来解码视频的
 
 运行我们的代码时，请先确保计算机连接到Tello的Wi-Fi，然后运行main.py。当在终端中使用命令
 ```shell
