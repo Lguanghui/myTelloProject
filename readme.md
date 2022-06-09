@@ -2,6 +2,12 @@
 
 *若你的浏览器无法加载本页面中的图片，请将VPN软件设置为全局模式*
 
+:warning::warning::warning::warning::warning::warning: WARNING :warning::warning::warning::warning::warning::warning:
+
+由于大型模型文件无法上传到 GitHub，因此从 GitHub 下载的项目无法使用体态控制等功能（基础功能如拍照录像等不受影响）。如在编译过程中遇到因找不到模型而失败的问题，请将相关代码注释掉
+
+:warning::warning::warning::warning::warning::warning: WARNING :warning::warning::warning::warning::warning::warning:
+
 ## 联系我们
 Mail：liangguanghui@buaa.edu.cn
 
